@@ -80,19 +80,21 @@ At its core, your application needs to allow users to ask questions, give answer
 
 If you complete the basics, you should begin awarding points for certain actions on the site, and keep track of how many points each user has acquired.  Your application should allow the following actions:
 
-* Users can receive points for posting questions, posting answers, or receiving upvotes.
-* Users can lose points for receiving downvotes.
-* Question poster can set a bounty on a question.
-* Question poster can award a bounty for an answer to a question with a bounty on it.
-* Site visitors can see a leaderboard of users.
+* Members can receive points for asking Questions, suggesting Answers, or _receiving_ up-votes.
+* Members can _lose_ points for receiving down-votes.
+* Askers can set a Bounty (a number of points) on a Question that is awarded to the Member who suggests the _first_ "accepted" Answer.
+* Asker can award a Bounty for an Answer to a Question with a Bounty on it.
+  * All or nothing or can she divvy it up?
+  * Does it automatically go to the "accepted" Answer?
+* Visitors can view [a Leaderboard of Members ranked by their points earned](http://stackoverflow.com/users), so that they can see who is most active.
 
 ## Nightmare Mode
 
 Once you have a point system in place, you can take more advanced actions based on these points.  Your application should allow the following actions:
 
-* Users should receive badges for accomplishing certain things in the application.  Stack Overflow's system can be found [here](http://stackoverflow.com/help/badges).  Choose at least five of these badges and implement them in your system.
-* Users should only be able to perform certain tasks once they have acquired a certain number of points.  Stack Overflow calls these "privileges," and their system can be found [here](http://stackoverflow.com/help/privileges).  Implement the following privileges:
-  * A certain number of points (more than zero, you choose the threshold) needed to create posts
-  * A higher number of points (you choose the threshold) needed to upvote
+* Members should [receive badges for accomplishing certain things in the application](http://stackoverflow.com/help/badges).  Choose at least five of these badges and implement them in your system.
+* Members should only be able to perform certain tasks once they have acquired a certain number of points.  [Stack Overflow calls these "privileges"](http://stackoverflow.com/help/privileges).  Implement the following privileges:
+  * A certain number of points (more than zero, you choose the threshold) needed to post Questions
+  * A higher number of points (you choose the threshold) needed to up-vote
   * A higher number of points (you choose the threshold) needed to set a bounty
-  * A higher number of points (you choose the threshold) points needed to downvote
+  * A higher number of points (you choose the threshold) points needed to down-vote
