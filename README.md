@@ -56,15 +56,25 @@ After completing this assignment, you should...
 
 At its core, your application needs to allow users to ask questions, give answers, and vote.  You also need to provide anyone with the ability to search for questions and see answers.  Your application should allow the following actions:
 
-* Site visitors can sign up for new accounts.
-* Users can log in and log out.
-* Users can post new questions.
-* Users can answer questions.
-* Users can upvote or downvote questions.
-* Users can upvote or downvote answers.
-* Site visitors (and logged in users) can view questions (and their answers and votes) without logging in.
-  * When the site loads, top questions should be shown.
-  * Search functionality should allow users to search for questions/answers, and have them appear sorted by quality.
+* Visitors can sign up for a new account, so that they can become Members.
+* Members can log in (and log out), so that they can contribute to the site.
+* Members can ask new Questions, so that others can help them.
+* Members can suggest Answers for a Question, so that they can participate in the conversation.
+* Members can up-vote or down-vote Questions, to show support for or against.
+  * Votes should probably affect the sorting order of Questions somewhat.
+  * Once a Member has up-voted a Question, can that be rescinded?
+* Members can up-vote or down-vote Answers, to show support for or against.
+  * The highest voted Answer for a Question should definitely appear at the top.
+  * Can a Member change her mind about an Answer? How?
+* Askers -- Members who have asked a Question -- can select an Answer as "accepted", so that they can share with others which Answer worked best for them.
+  * An Answer that is "accepted" should _always_ appear at the top of the list.
+* Anyone (Members and Visitors) can view Questions, Answers and Votes, so that they can see the activity on the site.
+  * The main page of the site should show "Top Questions", at least.
+  * Each Question (and Answer?) should have [a permalink](https://en.wikipedia.org/wiki/Permalink) that can be shared.
+  * The number of Votes and Answers for each Question should appear in any list view.
+* Anyone can search for Questions and Answers, so that they can find them faster and more easily.
+  * Search results should be ranked by quality.
+  * Results in the list should contain the number of Votes and Answers.
 
 ## Hard Mode
 
