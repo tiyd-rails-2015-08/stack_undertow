@@ -32,18 +32,25 @@ After completing this assignment, you should...
 
 ## Deliverables
 
-* **A data structure diagram.** Before writing any code, review the requirements below and draw a data structure diagram for this project.  It should include:
+* **A GitHub organization named...?** Create an organization in GitHub to represent your team for this project.  Give all team members full rights.
+* **Two repositories named `api` and `gui`** The `api` repository will contain the Rails API code, and `gui` will contain the Angular JS interface.  Create both repositories under your GitHub organization's account.
+* **A `README.md` for each repository** that describes each application and includes a link to the other project repo and the deployment URLs for each.
+* **A Rails API deployed and running on Heroku.**
+* **An Angular JS app served from Firebase Hosting**
+
+### Before writing any code, produce the following:
+
+* **A workflow diagram** describing the primary actions of the application in any format: pen(cil) and paper, whiteboard pictures, a formal drawing... whatever.
+* **A data structure diagram** that should include:
   * A box for each table
   * Each field you'll need for each table
   * A data type for each field
   * A mark to indicate that it's a required field
   * Relationships between each pair of tables with a primary/foreign key link
-* **A workflow diagram.**  Any format is fine, including paper.
-* **A GitHub organization.** Create an organization in GitHub to represent your team for this project.  Give all team members full rights.
-* **Two repositories.** One will contain the Rails API code, while the second will contain the Front End Angular app.  Create both repositories under your GitHub organization's account.
-* **Two README.** Your README should describe the application and include a link to the live version on Heroku.
-* **A Rails API running on Heroku.**
-* **An Angular App served from .....**
+* **A set of visual schematics** that should include:
+  * Each page for the proposed application
+  * Visual annotations denoting layout containers and important content areas
+  * A mapping of content areas to API data
 
 ## Normal Mode
 
