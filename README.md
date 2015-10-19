@@ -6,21 +6,29 @@ As students, you have spent a lot of time on StackOverflow.  However, now that y
 
 ## Objectives
 
+After completing this assignment, you should...
+
+* Be able to work from a set of existing user stories
+* Be able to work in parallel with another team of developers
+* Be able to write an API specification with a second team of developers
+* Know how to integrate work across multiple codebases
+* Gain experience resolving ambiguities in requirements and assumptions built into two different code bases
+
 ### Front End Objectives
 
 After completing this assignment, you should...
 
-* .....
+* Be able to contribute to the design of a database and Domain Model
+* Know how to write a User Interface (UI) for an API specification
+* Gain experience writing reactive UIs with Angular JS
 
 ### Rails Objectives
 
 After completing this assignment, you should...
 
-* Be able to work from a set of existing user stories
-* Be able to design a database to support a range of features
-* Be able to write an API specification with a second team of developers
-* Know how to build a back-end API to enable a rich user interface
-* Gain experience resolving ambiguities in requirements and assumptions built into two different code bases
+* Be able to design a database and ReSTful API to support a range of features
+* Know how to build an API to provide data to a reactive User Interface (UI)
+* Gain experience writing high-throughput APIs with Rails
 
 ## Deliverables
 
