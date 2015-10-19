@@ -32,11 +32,11 @@ After completing this assignment, you should...
 
 ## Deliverables
 
-* **A GitHub organization named...?** Create an organization in GitHub to represent your team for this project.  Give all team members full rights.
-* **Two repositories named `api` and `gui`** The `api` repository will contain the Rails API code, and `gui` will contain the Angular JS interface.  Create both repositories under your GitHub organization's account.
-* **A `README.md` for each repository** that describes each application and includes a link to the other project repo and the deployment URLs for each.
+* **A GitHub organization.** Create an organization in GitHub to represent your team for this project.  Give all team members full rights.
+* **Two repositories named `api` and `gui`.** The `api` repository will contain the Rails API code, and `gui` will contain the Angular JS interface.  Create both repositories under your GitHub organization's account.
+* **A `README.md` for each repository.** Describe each application and include a link to the other project repo and the deployment URLs for each.
 * **A Rails API deployed and running on Heroku.**
-* **An Angular JS app served from Firebase Hosting**
+* **An Angular JS app served from Firebase Hosting.**
 
 ### Before writing any code, produce the following:
 
@@ -61,16 +61,13 @@ At its core, your application needs to allow users to ask questions, give answer
 * Members can ask new Questions, so that others can help them.
 * Members can suggest Answers for a Question, so that they can participate in the conversation.
 * Members can up-vote or down-vote Questions, to show support for or against.
-  * Votes should probably affect the sorting order of Questions somewhat.
-  * Once a Member has up-voted a Question, can that be rescinded?
 * Members can up-vote or down-vote Answers, to show support for or against.
-  * The highest voted Answer for a Question should definitely appear at the top.
-  * Can a Member change her mind about an Answer? How?
+  * Answers with more support should appear closer to the top of the list (when viewing a single Question).
 * Askers -- Members who have asked a Question -- can select an Answer as "accepted", so that they can share with others which Answer worked best for them.
   * An Answer that is "accepted" should _always_ appear at the top of the list.
 * Anyone (Members and Visitors) can view Questions, Answers and Votes, so that they can see the activity on the site.
   * The main page of the site should show "Top Questions", at least.
-  * Each Question (and Answer?) should have [a permalink](https://en.wikipedia.org/wiki/Permalink) that can be shared.
+  * Each Question should have [a permalink](https://en.wikipedia.org/wiki/Permalink) that can be shared.
   * The number of Votes and Answers for each Question should appear in any list view.
 * Anyone can search for Questions and Answers, so that they can find them faster and more easily.
   * Search results should be ranked by quality.
@@ -83,9 +80,7 @@ If you complete the basics, you should begin awarding points for certain actions
 * Members can receive points for asking Questions, suggesting Answers, or _receiving_ up-votes.
 * Members can _lose_ points for receiving down-votes.
 * Askers can set a Bounty (a number of points) on a Question that is awarded to the Member who suggests the _first_ "accepted" Answer.
-* Asker can award a Bounty for an Answer to a Question with a Bounty on it.
-  * All or nothing or can she divvy it up?
-  * Does it automatically go to the "accepted" Answer?
+* Asker automatically awards a Bounty when accepting an Answer to a Question with a Bounty on it.
 * Visitors can view [a Leaderboard of Members ranked by their points earned](http://stackoverflow.com/users), so that they can see who is most active.
 
 ## Nightmare Mode
